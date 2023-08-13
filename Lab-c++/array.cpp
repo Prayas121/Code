@@ -13,7 +13,7 @@ int main()
         number=number/10;
     }
     //for reading the digits stored in digits array
-    cout <<"digits are"<<endl;
+    cout <<"digits are"<<"\n";
     for(int j=3 ; j>=0 ; j-- )
     {
         cout<<digit[j]<<", ";

@@ -9,8 +9,11 @@ cout<<"Enter the Nationality:";
 cin>>Nationality;
 if(age<18){
     cout<<"Voting is not eligible due to age\n ";}
-    else if(age<18 && Nationality!= Nepali){
-    cout<<"voting is not eligible due to both";}
+    
+    else if(age<18 && Nationality != "Nepali")
+	{
+    cout<<"voting is not eligible due to both";
+	}
 
 else if(age>18 && Nationality == "Nepali" || Nationality == "Other")
     {

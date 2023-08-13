@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-int fab(int num) {
+int fab(int num)
+ {
 int n1 =0;
 int temp;
 int num3;
